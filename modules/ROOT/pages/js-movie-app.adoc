@@ -128,7 +128,7 @@ The following video will walk briefly walk you through the various features of t
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Oatm1WWmIHg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ++++
 
-==== The Database
+=== The Database
 
 This project uses a classic Neo4j dataset: the movie database. It includes `Movie`, `Actor`, `Director`, and `Genre` nodes, connected by relationships as described below:
 
@@ -545,15 +545,7 @@ The User Profile page allows the user to re-rate or un-rate their movies, and vi
 
 == Deployment
 
-=== Deplyoying the Recommendations Database with Aura 
-
-* Download Dump File https://github.com/neo4j-graph-examples/recommendations/tree/master/data
-* Create an account on Aura https://neo4j.com/cloud/aura/
-* Upload the dump and start the database
-
-++++
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wc6qFI-URSM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-++++
+include::./_includes/using_aura.adoc[]
 
 === Deplyoying the Backend and Front-end with Heroku
 
